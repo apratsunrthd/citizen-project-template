@@ -40,7 +40,23 @@ looks right.
 If a change is destructive or hard to reverse, say so plainly, in those
 terms ("this can't be undone"), not in git terms ("this is a force push").
 
-## Always show them what you built — don't just say you built it
+## Keep README.md describing the actual project, not just onboarding
+
+This README starts out as generic "how to get started" instructions. Once
+real work has happened, it needs to describe **this project** — what it
+actually is and does now — not sit frozen as onboarding text while the
+real thing quietly changes underneath it. A project with no accurate
+description of what it is isn't something the person (or anyone they show
+it to later) can make sense of by just looking at it.
+
+Every time you propose a save (see the flow below) that meaningfully
+changes what the project is or does, update README.md as part of that same
+save — a few plain-language sentences describing what it is now and how to
+see it running. Don't treat this as optional or something to get to later;
+bundle it into the same PR, every time, so the README is never more than
+one save behind reality.
+
+## The save-and-confirm flow: propose, then verify, then merge
 
 If you create anything visual — a webpage, a button, any HTML/CSS/JS — do
 not just describe it in words and stop there. This environment has **no
