@@ -2,6 +2,12 @@
 
 This is a starter kit for building things with Claude — no coding tools to install, no terminal required.
 
+## The one link to bookmark
+
+**[Click here to start a brand-new project](https://github.com/apratsunrthd/citizen-project-template/generate)**
+
+Bookmark that link. Every time you have a new idea, click it, type a name for your project, and you'll get your own private copy of this starter kit, ready to go — no need to find this page again or remember any of the steps below. (It does the same thing as clicking the green "Use this template" button on this page and choosing "Create a new repository" — just skips straight to naming your project.)
+
 ## Before your first project (a one-time thing)
 
 The first time you connect [claude.ai/code](https://claude.ai/code) to GitHub, it may ask which of your repositories it's allowed to see. Choose **"All repositories,"** not specific ones. If you pick only specific repos now, every new project you make later — including ones from this template — won't show up automatically, and you'll have to go add each one by hand.
@@ -10,7 +16,7 @@ Already connected and only gave it access to some repos? No problem, fix it once
 
 ## How to use it
 
-1. Click the green **"Use this template"** button at the top of this page on GitHub, then choose **"Create a new repository"** (not "Open in a codespace" — that opens a different tool and isn't what you want). Give your new project a name. This makes you your own private copy — nothing you do here affects this template.
+1. Click [your bookmarked link](https://github.com/apratsunrthd/citizen-project-template/generate) (see above) and give your new project a name. This makes you your own private copy — nothing you do here affects this template. (If you're starting from this page instead, click the green "Use this template" button, then choose "Create a new repository" — not "Open in a codespace," that opens a different tool and isn't what you want.)
 2. Go to [claude.ai/code](https://claude.ai/code) and open your new project.
 3. Just describe what you want to build. Claude will create real files you can see, and every change is automatically saved with history — so you can always go back if something breaks.
 
