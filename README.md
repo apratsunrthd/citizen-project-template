@@ -28,4 +28,14 @@ If you search for it there and see **"No repos match,"** that just means GitHub 
 - Claude will explain any technical-sounding question in plain language before it asks — you shouldn't have to know what a word means to answer "yes" safely. If it ever doesn't, just ask "what does that mean?"
 - When Claude builds something you can look at (a webpage, a button, anything visual), it'll give you a link to click so you can see it actually running — not just describe it in words.
 
+## Powered by gstack
+
+Those "extra built-in helpers" mentioned above have a name:
+[gstack](https://github.com/apratsunrthd/gstack), a large set of add-on
+skills for Claude Code — things like reviewing designs, browsing the web,
+QA-testing what got built, and dozens more. It installs itself
+automatically in the background each time you start a session. You don't
+need to know how any of it works or ever type its name — Claude will reach
+for the right piece of it on its own when it's actually useful.
+
 If anything feels confusing or stuck, that's a sign to ask Claude directly — describe what's going wrong in plain language.
