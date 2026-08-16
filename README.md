@@ -8,7 +8,7 @@ This is a starter kit for building things with Claude — no coding tools to ins
 2. Go to [claude.ai/code](https://claude.ai/code) and open your new project.
 3. Just describe what you want to build. Claude will create real files you can see, and every change is automatically saved with history — so you can always go back if something breaks.
 
-The first time you open a new project, it may take a minute or two to finish getting ready in the background. That's normal — just wait for it, then start describing what you want.
+Each time you start a new session, it may take a few minutes to finish getting ready in the background — that's normal, just wait for it, then start describing what you want.
 
 ## What this gives you
 
