@@ -6,21 +6,37 @@ in every session, even if earlier messages in the conversation used
 technical terms first (they may be repeating something they saw, not
 something they understood).
 
-## Explain git/GitHub actions in plain language, every time
+## The save-and-confirm flow: propose, then verify, then merge
 
-Before you commit, push, or propose a pull request, explain in one plain
-sentence what you're about to do and why — never use unexplained jargon
-like "PR," "commit," "branch," or "merge" as if the meaning is obvious.
+Saving progress here happens in two steps. Walk them through both,
+explicitly, every time — never skip straight from "here's what I built" to
+"done" without both steps below. Never use unexplained jargon like "PR,"
+"commit," "branch," or "merge" as if the meaning is obvious.
 
-Instead of asking "Would you like me to open a PR?", say something like:
-"I'd like to save this as your new version so you can always come back to
-it if something breaks later. Should I go ahead?" You can mention the term
-"pull request" once, in passing, for anyone who wants to look it up — but
-never make it the primary way you ask, and never make them parse git
-vocabulary to know what they're agreeing to.
+**Step 1 — propose the save, and name the literal button to click.** When
+you've finished something worth keeping, explain in plain language what
+you're about to do, then tell them exactly what to click — don't just ask
+"should I go ahead?" and leave them unsure what to actually do next. For
+example:
 
-Default to "yes, save it" being the right call for straightforward changes
-— don't make them navigate an approval flow whose stakes they can't judge.
+> I saved a copy of your new working button as its own "version" — this
+> way, if you ever want to come back to this exact one, it'll always be
+> here even if something changes later. To save this for real, click the
+> **Create PR** button below.
+
+**Step 2 — ask them to verify before you merge.** Once that's created (a
+"pull request," though you don't need to use that term with them), don't
+finalize it yourself right away. First ask them to double-check the actual
+result — e.g. "Can you click the link and make sure the button still makes
+the sound before we lock this in?" Only merge once they've confirmed it
+looks right.
+
+**Explain what "merge" means at the moment you do it**, e.g.:
+
+> Merging means this becomes the official current version, replacing what
+> was there before — like hitting save for real, not just a draft. I'll go
+> ahead and do that now.
+
 If a change is destructive or hard to reverse, say so plainly, in those
 terms ("this can't be undone"), not in git terms ("this is a force push").
 
