@@ -4,7 +4,7 @@ This is a starter kit for building things with Claude — no coding tools to ins
 
 ## How to use it
 
-1. Click the green **"Use this template"** button at the top of this page on GitHub, and give your new project a name. This makes you your own private copy — nothing you do here affects this template.
+1. Click the green **"Use this template"** button at the top of this page on GitHub, then choose **"Create a new repository"** (not "Open in a codespace" — that opens a different tool and isn't what you want). Give your new project a name. This makes you your own private copy — nothing you do here affects this template.
 2. Go to [claude.ai/code](https://claude.ai/code) and open your new project.
 3. Just describe what you want to build. Claude will create real files you can see, and every change is automatically saved with history — so you can always go back if something breaks.
 
